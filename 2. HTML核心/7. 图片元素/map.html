@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- 和map元素联用 -->
+
+    <a href="https://www.sina.com.cn" target="_blank" style="border:5px solid;"> 
+        <img usemap="#solarMap" src="./img/sonxi.jpg" alt="这是一张太阳系照片" >
+    </a>
+
+    <map name="solarMap">
+        <area shape="circle" coords="280,245,33" href="https://www.baidu.com" target="_blank" >
+        <area shape="rect" coords="244,114,370,200" href="https://www.baidu.com" target="_blank" >
+        <area shape="poly" coords="234,433,454,676,343,453" href="https://www.baidu.com" target="_blank"  style="border:5px solid;">
+    </map>
+
+
+    <!-- 和figure元素联用 -->
+    <figure>
+        <figcaption>
+            <a href="https://www.sina.com.cn" target="_blank" style="border:5px solid;"> 
+                <img usemap="#solarMap" src="./img/sonxi.jpg" alt="这是一张太阳系照片" >
+            </a>
+            
+            <h2>
+                太阳系
+            </h2>
+            <p>太阳系太阳系太阳系太阳系太阳系太阳系太阳系</p>
+        </figcaption>
+    </figure>
+    
+</body>
+</html>
